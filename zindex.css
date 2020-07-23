@@ -1,0 +1,17 @@
+.test { 
+  position: relative;
+  z-index: 1;
+  border: dashed;
+  height: 8em;
+  width: 40%;
+  margin-bottom: 1em;
+  margin-top: 2em;
+}
+.exam { 
+  position: absolute;
+  z-index: 3; /* put .gold-box above .green-box and .dashed-box */
+  background: gold;
+  width: 100%;
+  left: 60px;
+  top: 3em;
+}
